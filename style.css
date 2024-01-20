@@ -1,0 +1,153 @@
+body {
+    font-family: Arial;
+}
+
+/* chat */
+.chat {
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.chat__header {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat__ava {
+    width: 32px;
+    height: 32px;
+    background-color: #FE5DA3;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+}
+
+.chat__name {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.chat__main {
+    padding: 10px;
+}
+
+.chat__left, .chat__right {
+    max-width: 200px;
+    background: #F1F1F1;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+    line-height: 1.4
+}
+
+.chat__right {
+    background-color: #FE5DA3;
+    margin-left: auto;
+    color: #fff;
+}
+
+.chat__footer {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chat__footer input {
+    width: 190px;
+    height: 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.chat__footer button {
+    border-radius: 15px;
+    border: 1px solid #FE5DA3;
+    background: #FE5DA3;
+    color: #fff;
+    height: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+/* End chat */
+
+/* category */
+.category__item {
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category__img img {
+    height: 100px;
+    width: auto;
+}
+
+.category__name {
+    font-size: 13px;
+    font-weight: 600;
+}
+/* End category */
+
+/* product */
+.product__item {
+    display: inline-block;
+    width: 250px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.product__item img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: block;
+}
+
+.product__content {
+    padding: 10px 5px;
+}
+
+.product__name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product__price {
+    font-size: 18px;
+    font-weight: 700;
+    color: green;
+    margin-bottom: 5px;
+}
+
+.product__cost {
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 5px;
+    text-decoration: line-through;
+}
+
+.product__sale {
+    font-size: 18px;
+    font-weight: 700;
+    color: purple;
+}
+/* End product */
